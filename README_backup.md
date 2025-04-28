@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Fame PyTorch ROCm Kit 🔥
 
 Built with Courage. Built with Fire. Built with FAME.
@@ -105,4 +105,4 @@ Fame Kit proudly built by [sbeierle](https://github.com/sbeierle) with 🛡️ C
 # Built with Fire. Built with Fame. 🛡️🔥
 =======
 # fame-pytorch-kit
->>>>>>> cbd4317 (first commit)
+
