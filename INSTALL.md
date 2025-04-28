@@ -49,10 +49,9 @@ cd pytorch/dist/
 Install the Wheel manually:
 
 ```bash
-pip install torch-2.8.0a0+gitxxxxxx-cp312-cp312-linux_x86_64.whl
-```
+pip install torch-2.8.0a0+gitc402b3b-cp312-cp312-linux_x86_64.whl
 
-_(Replace `gitxxxxxx` with your actual build identifier.)_
+```
 
 ---
 
