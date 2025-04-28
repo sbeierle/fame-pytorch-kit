@@ -63,10 +63,9 @@ bash install_torch.sh
 
 ```bash
 cd pytorch/dist/
-pip install torch-2.8.0a0+gitxxxxxx-cp312-cp312-linux_x86_64.whl
-```
+pip install torch-2.8.0a0+gitc402b3b-cp312-cp312-linux_x86_64.whl
 
-_(Replace `gitxxxxxx` with your actual Wheel file name.)_
+```
 
 Make sure your Python environment (venv) is activated!
 
