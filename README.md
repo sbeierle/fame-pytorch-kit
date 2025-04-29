@@ -54,6 +54,21 @@ The generated `.whl` file will be located in `pytorch/dist/`.
 
 ## 📦 Install Instructions
 
+⚠️ Important Note:
+This installation step compiles and installs a full ROCm-enabled PyTorch build.
+Please ensure that the install_torch.sh script is used, as it includes all necessary flags:
+
+    USE_ROCM=1
+
+    CMAKE_ARGS="-DROCM_ARCH=gfx1100"
+
+    and proper ROCM/HIP paths via LD_LIBRARY_PATH, PATH, etc.
+
+🔁 If you skip this and install a .whl built only via build_torch.sh, you'll get a CPU-only PyTorch build.
+(Which is also valid – and a great first success. ROCm is optional and modular.)
+
+
+
 ### Quick Install
 
 ```bash
